@@ -97,7 +97,7 @@
         app:srcCompat="@drawable/baseline_call_made_24" />
 
     <Switch
-        android:id="@+id/round_aup_switch"
+        android:id="@+id/round_up_switch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -115,10 +115,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/button"
+        android:text="@string/calculate"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/round_aup_switch"
-        app:layout_constraintTop_toBottomOf="@+id/round_aup_switch"
+        app:layout_constraintStart_toStartOf="@+id/round_up_switch"
+        app:layout_constraintTop_toBottomOf="@+id/round_up_switch"
         tools:ignore="VisualLintButtonSize" />
 
     <TextView
